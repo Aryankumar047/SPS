@@ -3,7 +3,7 @@ import random
 def app():
 	st.markdown("<p style='font-size:25px'>Lets Start The Game!</p>",unsafe_allow_html=True)
 	lst=[0,1]
-	predicted=str(lst[random.randint(0,2)])
+	predicted=str(lst[random.randint(0,1)])
 	if st.button('Shoot Yourself'):
 		if predicted == '0':
 			st.markdown("<p style='font-size:22px'>Congratulations! You Won. The Computer Lost.",unsafe_allow_html=True)
