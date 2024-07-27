@@ -13,4 +13,4 @@ def app():
 		if predicted == '0':
 			st.markdown("<p style='font-size:22px'>Oops! You Lost.The Computer Won",unsafe_allow_html=True)
 		elif predicted == '1':
-			st.markdown("<p style='font-size:25px'>Congratulations! You Won.The Computer Won",unsafe_allow_html=True)
+			st.markdown("<p style='font-size:25px'>Congratulations! You Won.The Computer Lost",unsafe_allow_html=True)
